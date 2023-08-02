@@ -103,6 +103,20 @@
       "oAP" : "\/database",
       "oF" : 0
     },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/package.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -5687,17 +5701,6 @@
       "oA" : 1,
       "oAP" : "\/vendor",
       "oF" : 0
-    },
-    "\/vite.config.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/vite.config-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
     }
   },
   "hooks" : [
