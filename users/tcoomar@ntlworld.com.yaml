@@ -5,4 +5,4 @@ password_hash: $2y$10$oAAJVAraHQEdrqD8hkQT2u8zbb0xu4/h3Cwjzj6.vYpx5N2Q4JUl.
 preferences:
   collections:
     blogs:
-      per_page: 100
+      per_page: 500
