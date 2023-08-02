@@ -39,7 +39,8 @@ return [
     */
 
     'copy' => [
-        public_path('build') => 'build',
+        public_path('css') => 'css',
+        public_path('assets') => 'assets',
     ],
 
     'symlinks' => [
