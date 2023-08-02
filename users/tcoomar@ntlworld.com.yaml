@@ -2,3 +2,7 @@ name: Tim
 super: true
 id: de8b9c1f-5129-455a-bbb8-ea25d9a0a069
 password_hash: $2y$10$oAAJVAraHQEdrqD8hkQT2u8zbb0xu4/h3Cwjzj6.vYpx5N2Q4JUl.
+preferences:
+  collections:
+    blogs:
+      per_page: 100
