@@ -1,0 +1,210 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+
+html {
+  /* Allow percentage-based heights in the application */
+  block-size: 100%;
+  /* Making sure text size is only controlled by font-size */
+  -webkit-text-size-adjust: none;
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  6. Improve media defaults
+*/
+:where(img, svg, video, canvas, audio, iframe, embed, object) {
+  display: block;
+}
+
+:where(img, svg, video) {
+  block-size: auto;
+  max-inline-size: 100%;
+}
+
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+*:where(:not(fieldset, progress, meter)) {
+  border-width: 0;
+  border-style: solid;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+}
+
+/* Smooth scrolling for users that don't prefer reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+}
+.home-posts {
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.home-posts > * {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-size: cover;
+  background: none !important;
+}
+.home-posts .post__title {
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 95%;
+  margin: auto;
+  font-weight: 400;
+}
+.home-posts .post__title a {
+  display: block;
+  padding: 1.4rem 1.8rem;
+  background: rgba(255, 255, 255, 0.7);
+  color: #777;
+}
+.home-posts .post__title a:hover {
+  color: black;
+}
+
+body {
+  font-family: PF Bague Sans Pro, Fira Mono, Arial;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  padding-right: 2rem;
+}
+.site-nav ul a {
+  display: block;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: darkslategray;
+}
+.site-nav ul a:hover {
+  text-decoration: underline;
+}
+
+.single-post {
+  font-size: 1.4rem;
+}
+
+.post-title {
+  margin-bottom: 2rem;
+}
+
+.post-image {
+  width: 100vw;
+  aspect-ratio: 16/6;
+  overflow: hidden;
+  margin-bottom: -8rem;
+}
+.post-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1400px) {
+  .post-image {
+    aspect-ratio: 16/8;
+  }
+}
+.post-content {
+  padding: 3rem 1.4rem;
+  max-width: 70vw;
+  margin: auto;
+  margin-top: 8rem;
+}
+
+@media (max-width: 800px) {
+  .post-content {
+    max-width: 95vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.next-post {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1rem;
+  max-width: 70vw;
+  margin: auto;
+  font-size: 1rem;
+  text-align: right;
+}
+.next-post a {
+  padding: 0.8rem 1rem;
+  background: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.3s all;
+}
+.next-post a:hover {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.post-content blockquote {
+  padding-left: 2rem;
+  font-style: italic;
+  border-left: 5px solid gray;
+}
