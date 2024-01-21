@@ -5816,6 +5816,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/resources\/css\/partials\/_nav.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/resources\/public\/css\/_nav.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/resources\/css\/partials\/_reset.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -5826,6 +5841,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/resources\/public\/css\/_reset.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/resources\/css\/partials\/_single.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/resources\/public\/css\/_single.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

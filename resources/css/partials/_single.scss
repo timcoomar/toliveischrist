@@ -1,0 +1,77 @@
+.single-post {
+    //padding: 1rem 3rem;
+    font-size: clamp(1.1rem, .8rem + 1vw, 1.5rem);
+}
+
+.post-title {
+    margin-bottom: 2rem;
+}
+
+.post-image {
+    width: 100vw;
+    aspect-ratio: 16/6;
+    overflow: hidden;
+    margin-bottom: -8rem;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1400px) {
+    .post-image {
+        aspect-ratio: 16/8
+    }
+}
+
+.post-content {
+    padding: 3rem 1.4rem;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+@media (max-width: 800px) {
+    .post-content {
+        max-width: 95vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.next-post {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1rem;
+    max-width: 70vw;
+    margin: auto;
+    font-size: 1rem;
+    text-align: right;
+    //padding-top: 1rem;
+    //padding-bottom: 3rem;
+    a {
+        padding: .8rem 1rem;
+        background: rgba(0,0,0,0.0);
+        color: rgba(0,0,0,0.4);
+        transition: .3s all;
+        &:hover {
+            background: rgba(0,0,0,0.7);
+            color: white
+        }
+    }
+}
+
+.post-content blockquote {
+    padding-left: 2rem;
+    font-style: italic;
+    border-left: 5px solid gray;
+}
+
+
+@media (max-width: 650px) {
+    .post-content {
+        padding-top: 2rem;
+        margin-top: 0;
+    }
+}

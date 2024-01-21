@@ -1,4 +1,10 @@
 .main-page {
     padding: 10rem 15vw 2rem;
-    font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+    font-size: clamp(1.1rem, .8rem + 1vw, 1.6rem);
+}
+
+@media (max-width: 650px) {
+    .main-page {
+        padding: 3rem 10vw 2rem;
+    }
 }
