@@ -1,12 +1,4 @@
-<nav class="site-nav">
-    <ul class="site-menu">
-        <li><a href="{{ link to="/" }}">Home</a></li>
-        <li><a href="{{ link to="about" }}">About</a></li>
-        <li><a href="{{ link to="poetry" }}">Poetry</a></li>
-        <li><a href="{{ link to="articles" }}">Articles</a></li>
-        <li><a href="{{ link to="quotes" }}">Quotes</a></li>
-    </ul>
-</nav>
+{{ partial:partials/nav }}
 
 <article class="single-post">
 
@@ -32,7 +24,7 @@
 
         {{ posts }}
         <div class="next-post">
-            <a href="{{ url }}">{{ title }} &#10095;</a>
+            <a href="{{ url }}"><span class="next-post__title">{{ title }}</span> &#10095;</a>
         </div>
         {{ /posts }}
 

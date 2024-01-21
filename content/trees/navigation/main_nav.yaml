@@ -1,0 +1,19 @@
+tree:
+  -
+    id: fc7c7001-ccfd-408b-b3a8-8dae6a706e9b
+    entry: home
+  -
+    id: 7388fe57-ac42-4c48-8b0a-92221ca296fd
+    entry: 4247d5f2-9e2f-49ef-87a9-b8994e7f4d5a
+  -
+    id: d0f01eeb-f70a-47c8-b52f-ba4d185d40dd
+    title: Poetry
+    url: /categories/poetry
+  -
+    id: b5d6851d-5c5d-465b-8b84-22aa2977830a
+    title: Articles
+    url: /categories/articles
+  -
+    id: 268b9f4e-3a7c-4c5a-9aa3-ecb067e8cd99
+    title: Quotes
+    url: /categories/quotes

@@ -1,0 +1,14 @@
+{{ partial:partials/nav }}
+
+<ul class="cat-posts">
+    <h2 class="page-title">{{ title }}</h2>
+
+    {{ entries sort="date:desc"}}
+
+    <li>
+        <a href="{{ url }}" class="post__title">{{ title }} / <span class="date">{{ date }}</span></a>
+    </li>
+
+    {{ /entries }}
+
+</ul>

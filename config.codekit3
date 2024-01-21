@@ -7,7 +7,7 @@
       "uuidString" : "269CF5D2-96C5-4283-BA3A-0E86415CE4CB"
     }
   ],
-  "creatorBuild" : "34484",
+  "creatorBuild" : "34564",
   "files" : {
     "\/.editorconfig" : {
       "cB" : 0,
@@ -192,6 +192,14 @@
       "oAP" : "\/public\/assets\/.meta\/crenshaw.jpg.yaml",
       "oF" : 0
     },
+    "\/public\/assets\/.meta\/ctceurope-logoglow.png.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/.meta\/ctceurope-logoglow.png.yaml",
+      "oF" : 0
+    },
     "\/public\/assets\/.meta\/fleabag.jpg.yaml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -263,6 +271,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/public\/assets\/ctceurope-logoglow.png" : {
+      "ft" : 32768,
+      "iS" : 28003,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/ctceurope-logoglow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/public\/assets\/fleabag.jpg" : {
       "ft" : 16384,
       "iS" : 80300,
@@ -285,6 +306,77 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/icons\/.gitkeep" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/icons\/.gitkeep",
+      "oF" : 0
+    },
+    "\/public\/assets\/icons\/.meta\/article.png.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/icons\/.meta\/article.png.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/icons\/.meta\/quill.png.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/icons\/.meta\/quill.png.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/icons\/.meta\/quote.png.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/icons\/.meta\/quote.png.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/icons\/article.png" : {
+      "ft" : 32768,
+      "iS" : 604,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/icons\/article.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/icons\/quill.png" : {
+      "ft" : 32768,
+      "iS" : 1416,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/icons\/quill.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/icons\/quote.png" : {
+      "ft" : 32768,
+      "iS" : 1058,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/icons\/quote.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -680,6 +772,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/app-36f5aa3d.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/app-36f5aa3d-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/public\/vendor\/statamic\/cp\/build\/assets\/app-53115558-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -714,6 +817,18 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/app-c19bec0c.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/app-c19bec0c-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/public\/vendor\/statamic\/cp\/build\/assets\/archive-70f1954a.js" : {
       "bF" : 0,
@@ -942,6 +1057,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/assets-mode-table-367a696d-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/audio-84b44c8e-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/audio-84b44c8e-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1605,6 +1731,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/duplicate-e06d08d8.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/duplicate-e06d08d8-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/public\/vendor\/statamic\/cp\/build\/assets\/duplicate-ids-f25f735e.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1835,6 +1972,40 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/favicon-16x16-a15cab2f.png" : {
+      "ft" : 32768,
+      "iS" : 524,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/favicon-16x16-a15cab2f.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/favicon-32x32-c29eba9f.png" : {
+      "ft" : 32768,
+      "iS" : 948,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/favicon-32x32-c29eba9f.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/favicon-bbfe21cf.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/favicon-bbfe21cf.ico",
+      "oF" : 0
     },
     "\/public\/vendor\/statamic\/cp\/build\/assets\/favorite-award-330f67e1-min.js" : {
       "bF" : 0,
@@ -2144,6 +2315,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/folder-home-cce39b8e-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/folder-home-cce39b8e-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/public\/vendor\/statamic\/cp\/build\/assets\/folder-home-cce39b8e.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -2349,6 +2531,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/grid-3e1f6818-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/group-95d5e899.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/group-95d5e899-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -3139,6 +3332,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/list-ul-5b0a6720-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/list-ul-5b0a6720-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/public\/vendor\/statamic\/cp\/build\/assets\/list-ul-5b0a6720.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -3667,6 +3871,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/pencil-8c2b4c0f-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/pencil-8c2b4c0f-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/public\/vendor\/statamic\/cp\/build\/assets\/pencil-8c2b4c0f.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -3916,6 +4131,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/pull-down-96f88daf-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/pulse-fe14689b.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/pulse-fe14689b-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -4726,6 +4952,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/tailwind-b8c646c5.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/tailwind-b8c646c5-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/public\/vendor\/statamic\/cp\/build\/assets\/taxonomies-5e5a9c10.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -4788,6 +5026,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/text-d6ab75a9-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/public\/vendor\/statamic\/cp\/build\/assets\/text-formatting-all-caps-6c9fb305-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/cp\/build\/assets\/text-formatting-all-caps-6c9fb305-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -5522,6 +5771,36 @@
       "oAP" : "\/resources\/blueprints\/user.yaml",
       "oF" : 0
     },
+    "\/resources\/css\/partials\/_about.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/resources\/public\/css\/_about.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/resources\/css\/partials\/_categories.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/resources\/public\/css\/_categories.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/resources\/css\/partials\/_home.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -5613,6 +5892,22 @@
       "oAP" : "\/resources\/users\/roles.yaml",
       "oF" : 0
     },
+    "\/resources\/views\/blogs\/categories\/index.antlers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/resources\/views\/blogs\/categories\/index.antlers.html",
+      "oF" : 0
+    },
+    "\/resources\/views\/blogs\/categories\/show.antlers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/resources\/views\/blogs\/categories\/show.antlers.html",
+      "oF" : 0
+    },
     "\/resources\/views\/blogs\/index.antlers.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -5659,6 +5954,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/resources\/views\/layout.antlers.html",
+      "oF" : 0
+    },
+    "\/resources\/views\/pages\/page.antlers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/resources\/views\/pages\/page.antlers.html",
+      "oF" : 0
+    },
+    "\/resources\/views\/partials\/_nav.antlers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/resources\/views\/partials\/_nav.antlers.html",
       "oF" : 0
     },
     "\/routes" : {
@@ -6540,9 +6851,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -6554,6 +6862,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
@@ -6608,9 +6919,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
@@ -6979,7 +7287,7 @@
       }
     },
     "esLintSourceType" : 0,
-    "externalServerAddress" : "http:\/\/127.0.0.1:8000",
+    "externalServerAddress" : "toliveischrist.test",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",

@@ -5,11 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+            rel="stylesheet"
+        />
+
         <!-- {{ vite src="resources/js/site.js|resources/css/site.css" }} -->
-        <link rel="stylesheet" href="{{ config:app:url }}/css/site.css">
+        <link rel="stylesheet" href="{{ config:app:url }}/css/site.css?v=2">
     </head>
-    <body class="bg-gray-100 font-sans leading-normal text-gray-800">
-        <div class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center">
+    <body class="page-{{ template or slug or 'home' }}">
+        <div>
             {{ template_content }}
         </div>
     </body>
